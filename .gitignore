@@ -1,0 +1,20 @@
+# Environment and local overrides
+.env
+.env.local
+
+# Storage logs and cache
+portfolio/storage/logs/*
+!portfolio/storage/logs/.gitkeep
+portfolio/storage/cache/*
+!portfolio/storage/cache/.gitkeep
+
+# Operating system artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

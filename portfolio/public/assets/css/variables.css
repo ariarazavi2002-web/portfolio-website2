@@ -1,0 +1,51 @@
+:root {
+  /* Color Palette */
+  --color-bg: #070a29;
+  --color-bg-alt: #0d123d;
+  --color-surface: rgba(255, 255, 255, 0.04);
+  --color-surface-hover: rgba(255, 255, 255, 0.08);
+  
+  --color-primary: #7047eb;
+  --color-primary-light: #8b5cf6;
+  --color-primary-glow: rgba(112, 71, 235, 0.45);
+  --color-primary-gradient: linear-gradient(135deg, #a78bfa 0%, #7047eb 100%);
+  
+  --color-text-main: #ffffff;
+  --color-text-muted: #94a3b8;
+  --color-text-dim: #64748b;
+  
+  --color-border-subtle: rgba(255, 255, 255, 0.1);
+  --color-border-glass: rgba(255, 255, 255, 0.16);
+
+  /* Typography */
+  --font-family-base: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 0.75rem;    /* 12px */
+  --font-size-sm: 0.875rem;   /* 14px */
+  --font-size-base: 1rem;     /* 16px */
+  --font-size-lg: 1.125rem;   /* 18px */
+  --font-size-xl: 1.25rem;    /* 20px */
+  --font-size-2xl: 1.5rem;    /* 24px */
+  --font-size-3xl: 2rem;      /* 32px */
+  --font-size-4xl: 2.5rem;    /* 40px */
+  --font-size-5xl: 3.25rem;   /* 52px */
+
+  /* Layout & Spacing */
+  --container-max-width: 1240px;
+  --container-padding: 1.5rem;
+  
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 24px;
+  --radius-xl: 40px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Daya Glass Tokens */
+  --daya-glass-radius: 40px;
+  --daya-glass-stroke: 1px;
+}
